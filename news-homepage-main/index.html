@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | News homepage</title>
 
+  <link rel="stylesheet" href="style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,29 +19,32 @@
 <body>
   <main id="container-main">
     <header id="container-header">
-      <img src="/news-homepage-main/assets/images/logo.svg" alt="logo">
-  
-      <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
+      <div>
+        <img src="/news-homepage-main/assets/images/logo.svg" alt="logo">
+      </div>
+      <div>
+        <ul id="list-menu">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </div>
     </header>
 
     <section>
-      <div>
-        <img src="/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="imagem principal">
-      </div>
+        <img class="image-principal" src="/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="imagem principal">
   
-      <div>
-        <h1>The Bringht Future of Web 3.0?</h1>
-      </div>
-  
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem molestias iusto inventore molestiae sit sunt quod aspernatur non magnam odit eaque debitis ullam asperiores totam fugit assumenda, repellendus quidem sequi. Ad nesciunt adipisci nostrum animi exercitationem id delectus minima.</p>
-        <button>HEAD MORE</button>
+      <div id="titulo-text">
+        <div class="h1-big">
+          <h1>The Bringht Future of Web 3.0?</h1>
+        </div>
+    
+        <div class="p-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem molestias iusto inventore molestiae sit sunt quod aspernatur non magnam odit eaque debitis ullam asperiores totam fugit assumenda, repellendus quidem sequi. Ad nesciunt adipisci nostrum animi exercitationem id delectus minima.</p>
+          <button class="bt">HEAD MORE</button>
+        </div>
       </div>
     </section>
     
