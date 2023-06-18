@@ -15,6 +15,8 @@ body {
 #container-main {
     margin: 100px 200px;
     border: red solid 1px;
+    display: flex;
+    flex-direction: column;
 }
 
 #container-header {
@@ -38,10 +40,37 @@ body {
     height: 450px;
 }
 
+#section1 {
+    display: flex;
+    flex-direction:column;
+}
+
 #titulo-text {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.aside {
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.parag {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-aside > h1 {
+    color: hsl(35, 77%, 62%);
+}
+.items > h3 {
+    color: hsl(36, 100%, 99%);
+}
+.items > p {
+    color: hsl(233, 8%, 79%);
 }
 
 .h1-big {
@@ -62,5 +91,26 @@ body {
     color: hsl(36, 100%, 99%);
     border: none;
     padding: 18px 45px;
+}
 
+#section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.itemsSection2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.parag2 {
+    gap: 10px;
+}
+
+span {
+    font-size: 50px;
+    color: hsl(233, 8%, 79%);
 }
