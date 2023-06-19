@@ -12,14 +12,14 @@ body {
     font-size: 15px;
 }
 
-#container-main {
+main {
     margin: 100px 200px;
     border: red solid 1px;
     display: flex;
     flex-direction: column;
 }
 
-#container-header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
